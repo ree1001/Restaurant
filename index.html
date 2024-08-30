@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Assighnment</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navbar -->
+      <div class="nav">
+        <div class="nav__logo">
+          <img src="image/Restaurant.png" alt="Logo" style="height: 40px; width: auto;" />
+        </div>
+        <div class="nav__item">
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Menu">Menu</a></li>
+            <li><a href="#Service">Service</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+          <div class="nav__search">
+            <input type="text" placeholder="Search..." />
+            <button><i class="fa fa-search"></i></button>
+          </div>
+          <div class="nav__cart">
+            <button class="cart-btn">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span id="cart-count">0</span>
+            </button>
+          </div>
+        </div>
+        <div class="toggler">
+          <span class="material-icons-sharp open__toggler">menu</span>
+          <span class="material-icons-sharp close__toggler">close</span>
+        </div>
+      </div>
+      <!-- Home Section -->
+      <section id="Home">
+        <div class="home">
+          <div class="home__page__left">
+            <img src="image/Bike Delivery.png" alt="Bike Delivery" />
+              <h2>
+                <span class="text-black">THE FASTEST</span><br />
+                <span class="text-orange">DELIVERY</span><br />
+                <span class="text-black">IN</span>
+                <span class="text-orange">YOUR CITY</span><br />
+              </h2>
+            <button class="home__btn">
+              <a href="#" class="home__link">Order Now</a>
+            </button>
+            <button class="home__btn2">
+              <img src="image/Polygon 1.png" alt="Icon" class="btn-icon" style="width: 20px; height: auto" />
+              <a href="#" class="home__link">Order Process</a>
+            </button>
+          </div>
+          <div class="home__page__right">
+            <img src="image/Food Slider.png" alt="Food Slider" />
+          </div>
+        </div>
+      </section>
+
+       <!-- Short List Section -->
+       <div class="info-section">
+        <div class="info-item">
+            <div class="icon">
+                <img src="image/hours.png" alt="Working Time">
+            </div>
+            <div class="text">
+                <p>Today 10:00am - 10:00pm</p>
+                <span>Working time</span>
+            </div>
+        </div>
+        <div class="info-item">
+            <div class="icon">
+                <img src="image/location.png" alt="Location">
+            </div>
+            <div class="text">
+                <p>Mohammadpur, Dhaka</p>
+                <span>Our Location</span>
+            </div>
+        </div>
+        <div class="info-item">
+            <div class="icon">
+                <img src="image/phone.png" alt="Phone Number">
+            </div>
+            <div class="text">
+                <p>+88 017 0000 0000</p>
+                <span>Phone Number</span>
+            </div>
+        </div>
+    </div>
+
+
+      <!-- Menu Section -->
+      <section class="menu-section">
+        <h2 class="title__one">Product</h2>
+        <h1 class="title__two">Most Popular Items</h1>
+
+        <div class="menu-container">
+            <!-- Menu Item 1 -->
+            <div class="menu-item">
+                <img src="image/f1.png" alt="Gyro Sandwich">
+                <div class="menu-content">
+                    <h3 class="food-name">Gyro Sandwich</h3>
+                    <div class="rating-price">
+                        <span class="rating">★ 4.9</span>
+                        <span class="price">$15.00</span>
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+            </div>
+            <!-- Menu Item 2 -->
+            <div class="menu-item">
+                <img src="image/f2.png" alt="Enchilada">
+                <div class="menu-content">
+                    <h3 class="food-name">Enchilada</h3>
+                    <div class="rating-price">
+                        <span class="rating">★ 5.0</span>
+                        <span class="price">$25.50</span>
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+            </div>
+            <!-- Menu Item 3 -->
+            <div class="menu-item">
+                <img src="image/f3.png" alt="Green Beans">
+                <div class="menu-content">
+                    <h3 class="food-name">Green Beans</h3>
+                    <div class="rating-price">
+                        <span class="rating">★ 4.9</span>
+                        <span class="price">$12.00</span>
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+            </div>
+            
+            
+            <!-- Hidden Menu Items -->
+            <div class="menu-item hidden">
+                <img src="image/f4.png" alt="Chicken Pot Pie">
+                <div class="menu-content">
+                    <h3 class="food-name">Chicken Pot Pie</h3>
+                    <div class="rating-price">
+                        <span class="rating">★ 5.0</span>
+                        <span class="price">$25.00</span>
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+            </div>
+            <div class="menu-item hidden">
+              <img src="image/f5.png" alt="Chicken Pot Pie">
+              <div class="menu-content">
+                  <h3 class="food-name">Chicken Pot Pie</h3>
+                  <div class="rating-price">
+                      <span class="rating">★ 4.9</span>
+                      <span class="price">$25.00</span>
+                  </div>
+                  <button class="add-to-cart">Add To Cart</button>
+              </div>
+          </div>
+            <!-- Menu Item 6 -->
+            <div class="menu-item hidden">
+                <img src="image/f6.png" alt="Green Salad">
+                <div class="menu-content">
+                    <h3 class="food-name">Green Salad</h3>
+                    <div class="rating-price">
+                        <span class="rating">★ 4.9</span>
+                        <span class="price">$15.00</span>
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+               </div>
+            </div>
+        </div>
+        <button id="seeMoreBtn" class="home__btn" onclick="toggleMenu()">See More</button>
+        <script>
+          function toggleMenu() {
+            var hiddenItems = document.querySelectorAll('.menu-item.hidden');
+            var seeMoreBtn = document.getElementById('seeMoreBtn');
+          
+            hiddenItems.forEach(function(item) {
+                item.style.display = item.style.display === 'block' ? 'none' : 'block';
+            });
+          
+            if (seeMoreBtn.textContent === 'See More') {
+                seeMoreBtn.textContent = 'See Less';
+            } else {
+                seeMoreBtn.textContent = 'See More';
+            }
+          }
+        </script>          
+      </section>
+    
+                <!-- Service Section -->
+            <section id="Service">
+                <h2 class="menu__title__one">Service</h2>
+                <h1 class="menu__title__two">Why Choose Our Favorite Food</h1>
+                <div class="service">
+                  <div class="service__first">
+                    <img src="image/icon1.png" alt="Order Service" />
+                    <h2>Qualityfull Food</h2>
+                    <p>
+                        But I must explain to you how all this
+                        mistaken idea of denouncing pleasur and
+                        prasising pain was bron.
+                    </p>
+                  </div>
+                  <div class="service__second">
+                    <img src="image/icon2.png" alt="Shipping Service" />
+                    <h2>Healthy Food</h2>
+                    <p>
+                        But I must explain to you how all this
+                        mistaken idea of denouncing pleasur and
+                        prasising pain was bron.
+                    </p>
+                  </div>
+                  <div class="service__third">
+                    <img src="image/icon3.png" alt="Delivery Service" />
+                    <h2>Fast Delivery</h2>
+                    <p>
+                        But I must explain to you how all this
+                        mistaken idea of denouncing pleasur and
+                        prasising pain was bron.
+                    </p>
+                  </div>
+                </div>
+              </section>
+
+<!-- Testimonial Section -->
+<div class="testimonial-section">
+  <h4 class="testimonial-header">Testimonials</h4>
+  <h1 class="testimonial-subheader">Our Happy Client Says</h1>
+
+  <div class="testimonial-wrapper">
+    <button class="arrow-button" id="prev-button" onclick="showPrevTestimonial()">&#10094;</button>
+
+    <!-- Testimonial 1 -->
+    <div class="testimonial-box" id="testimonial1">
+      <!-- Review Box -->
+      <div class="review-box">
+        <div class="profile-picture">
+          <img src="image/profile.png" alt="Profile Picture">
+        </div>
+        <div class="testimonial-content">
+          <div class="testimonial-author">
+            <span class="author-name">John Doe</span><br>
+            <span class="author-title">Food Blogger</span>
+          </div>
+          <p class="testimonial-text">
+            "The food was absolutely delicious! The service was quick and the staff were friendly. I highly recommend trying the Green Bean!"
+          </p>
+        </div>
+      </div>
+      <!-- Food Image Box -->
+      <div class="food-image-box">
+        <img src="image/fast food.png" alt="Food Picture">
+      </div>
+    </div>
+    <button class="arrow-button" id="next-button" onclick="showNextTestimonial()">&#10095;</button>
+  </div>
+</div>
+
+
+
+<section id="Subscribe" class="subscribe-section">
+<div class="subscribe-container">
+    <div class="subscribe-image">
+        <img src="image/burger.png" alt="Subscribe Image" />
+    </div>
+    <div class="subscribe-box">
+        <h2 class="subscribe-title">Subscribe to Our Newsletter</h2>
+        <h1 class="subscribe-text">Stay updated with the latest news,special offers,<br> 
+           and exclusive content directly in your inbox.<br> 
+          Don’t miss out on exciting updates<br> and valuable insights—subscribe now!
+
+        </h1>
+
+        <div class="subscribe-form">
+            <form id="subscribe-form">
+                <input type="email" id="email" name="email" placeholder="Enter your email" required />
+                <button type="submit">Subscribe</button>
+            </form>
+            <div id="confirmation-message" class="confirmation-message" style="display: none;">
+                Thank you for subscribing!😊
+            </div>
+        </div>
+    </div>
+</div>
+ <script>
+   document.getElementById("subscribe-form").addEventListener("submit", function(event) {
+   event.preventDefault(); 
+
+   document.getElementById("confirmation-message").style.display = "block";
+
+   document.getElementById("email").value = "";
+  });
+ </script>
+</section>
+<!-- Footer Section -->
+<footer class="footer">
+  <div class="footer-container">
+    <!-- Logo and Description -->
+    <div class="footer-item footer-logo-desc">
+      <img src="image/Restaurant.png" alt="Logo" class="footer-logo" />
+      <p class="footer-desc">
+        we serve delicious, freshly made dishes in a cozy, 
+        welcoming environment. Our passion for great food and 
+        friendly service ensures every visit is memorable.
+         Come dine with us and enjoy a delightful experience!
+      </p>
+      <div class="footer-social">
+        <a href="#"><img src="image/Facebook.png" alt="Facebook" /></a>
+        <a href="#"><img src="image/Twitter.png" alt="Twitter" /></a>
+        <a href="#"><img src="image/Linkind.png" alt="LinkedIn" /></a>
+        <a href="#"><img src="image/Instagram.png" alt="Instagram" /></a>
+      </div>
+    </div>
+
+    <!-- Opening Hours -->
+    <div class="footer-item">
+      <h4>Opening Restaurant</h4>
+      <p>Sat-Wet: 09:00am-10:00PM</p>
+      <p>Thursday: 09:00am-11:00PM</p>
+      <p>Friday: 09:00am-8:00PM</p>
+    </div>
+
+    <!-- User Links -->
+    <div class="footer-item">
+      <h4>User Link</h4>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Order Delivery</a></li>
+        <li><a href="#">Payment & Tax</a></li>
+        <li><a href="#">Terms of Services</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Information -->
+    <div class="footer-item">
+      <h4>Contact Us</h4>
+      <p>Mohammadpur, Dhaka</p>
+      <p>+88 017 0000 0000</p>
+      <p>+88 018 0000 0000</p>
+      <div class="footer-subscribe">
+        <input type="email" placeholder="Enter your email..." />
+        <button type="submit">➤</button>
+      </div>
+    </div>
+  </div>
+</footer>
+ <script>
+  document.addEventListener('DOMContentLoaded', function () {
+   const cartCountElement = document.getElementById('cart-count');
+   const addToCartButtons = document.querySelectorAll('.add-to-cart');
+  
+   let cartCount = 0;
+
+   addToCartButtons.forEach(function (button) {
+     button.addEventListener('click', function () {
+       cartCount++;
+       cartCountElement.textContent = cartCount;
+     });
+   });
+  });
+ </script>   
+</body>
+</html>
